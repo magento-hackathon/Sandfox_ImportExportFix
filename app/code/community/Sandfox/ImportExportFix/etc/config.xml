@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sandfox_ImportExportFix>
+            <version>0.1.0</version>
+        </Sandfox_ImportExportFix>
+    </modules>
+    <global>
+        <models>
+            <sandfox_importexportfix>
+                <class>Sandfox_ImportExportFix_Model</class>
+            </sandfox_importexportfix>
+            <enterprise_importexport>
+                <rewrite>
+                    <import_entity_product>Sandfox_ImportExportFix_Model_Import_Entity_Product</import_entity_product>
+                </rewrite>
+            </enterprise_importexport>
+            <importexport>
+                <rewrite>
+                    <import_entity_customer>Sandfox_ImportExportFix_Model_Import_Entity_Customer</import_entity_customer>
+                </rewrite>
+            </importexport>
+        </models>
+    </global>
+</config>

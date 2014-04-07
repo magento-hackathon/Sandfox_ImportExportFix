@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sandfox_ImportExportFix>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Enterprise_ImportExport/>
+            </depends>
+        </Sandfox_ImportExportFix>
+    </modules>
+</config>
