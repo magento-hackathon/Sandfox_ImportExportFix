@@ -1,0 +1,13 @@
+{
+  "name":"sandfox/import_export_fix",
+  "type":"magento-module",
+  "description":"This module solves couple of ImportExport core bugs.",
+  "require":{
+    "magento-hackathon/magento-composer-installer":"*"
+  },
+  "extra":{
+    "map": [
+      ["src/app/", "app/"]
+    ]
+  }
+}
