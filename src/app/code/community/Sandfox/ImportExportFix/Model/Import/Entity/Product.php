@@ -10,7 +10,7 @@
  * @license    http://opensource.org/licenses/MIT  The MIT License
  */
  
-class Sandfox_ImportExportFix_Model_Import_Entity_Product extends Enterprise_ImportExport_Model_Import_Entity_Product
+class Sandfox_ImportExportFix_Model_Import_Entity_Product extends Mage_ImportExport_Model_Import_Entity_Product
 {
     /**
      * Code of a primary attribute which identifies the entity group if import contains of multiple rows
