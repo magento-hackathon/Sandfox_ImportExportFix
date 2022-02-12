@@ -17,7 +17,7 @@
             <active>true</active>
             <codePool>community</codePool>
             <depends>
-                <Enterprise_ImportExport/>
+                <Mage_ImportExport/>
             </depends>
         </Sandfox_ImportExportFix>
     </modules>

@@ -22,13 +22,9 @@
             <sandfox_importexportfix>
                 <class>Sandfox_ImportExportFix_Model</class>
             </sandfox_importexportfix>
-            <enterprise_importexport>
-                <rewrite>
-                    <import_entity_product>Sandfox_ImportExportFix_Model_Import_Entity_Product</import_entity_product>
-                </rewrite>
-            </enterprise_importexport>
             <importexport>
                 <rewrite>
+                    <import_entity_product>Sandfox_ImportExportFix_Model_Import_Entity_Product</import_entity_product>
                     <import_entity_customer>Sandfox_ImportExportFix_Model_Import_Entity_Customer</import_entity_customer>
                 </rewrite>
             </importexport>
